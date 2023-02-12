@@ -15,3 +15,8 @@ target("two-sum")
     set_kind("binary")
     add_packages("doctest")
     add_files("src/two-sum.cpp")
+
+target("add-two-numbers")
+    set_kind("binary")
+    add_packages("doctest")
+    add_files("src/add-two-numbers.cpp")
